@@ -135,8 +135,8 @@ main:
 	call _inputf
 	
 	mov rcx, buffer
-	; xor rdx, rdx
-	mov rdx, npCharRead
+	xor rdx, rdx
+	; mov rdx, npCharRead ; Crashes at high counts -> limit at 128
 	call _printf
 	
 	mov rcx, input ; Input so it doesn't exit
