@@ -4,12 +4,10 @@
  
 ## How to compile?
 
-For Windows/Linux/macOS
+For Windows
 
 - Install MingGW-w64 & GCC and put it on your environment path
--> https://www.winlibs.com/ (Windows)
--> Package Manager (Linux/macOS)
+-> https://www.winlibs.com/
 
 - Install make
--> Download and install chocolatey (https://chocolatey.org/install) and get make (choco install make) (Windows)
--> Package Manager (Linux/macOS)
+-> Download and install chocolatey (https://chocolatey.org/install) and get make (choco install make)
